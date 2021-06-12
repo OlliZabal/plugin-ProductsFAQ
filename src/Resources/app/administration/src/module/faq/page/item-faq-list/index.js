@@ -1,9 +1,9 @@
-import template from './faq-list.html.twig';
+import template from './item-faq-list.html.twig';
 
 const { Component } = Shopware;
 const { Criteria } = Shopware.Data;
 
-Component.register('faq-list', {
+Component.register('item-faq-list', {
     template,
 
     inject: [
@@ -29,7 +29,7 @@ Component.register('faq-list', {
                 property: 'question',
                 dataIndex: 'question',
                 label: this.$t('faq.list.columnQuestion'),
-                routerLink: 'faq.detail',
+                routerLink: 'item.faq.detail',
                 inlineEdit: 'string',
                 allowResize: true,
                 primary: true

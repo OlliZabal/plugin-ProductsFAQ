@@ -1,13 +1,13 @@
-import './page/faq-create';
-import './page/faq-detail';
-import './page/faq-list';
+import './page/item-faq-create';
+import './page/item-faq-detail';
+import './page/item-faq-list';
 
 import deDE from './snippet/de-DE.json';
 import enGB from './snippet/en-GB.json';
 
 const { Module } = Shopware;
 
-Module.register('faq', {
+Module.register('item-faq', {
     type: 'plugin',
     name: 'faq',
     title: 'faq.general.mainMenuItemGeneral',
@@ -22,21 +22,21 @@ Module.register('faq', {
 
     routes: {
         list: {
-            component: 'faq-list',
+            component: 'item-item-faq-list',
             path: 'list'
         },
         detail: {
-            component: 'faq-detail',
+            component: 'item-item-faq-detail',
             path: 'detail/:id',
             meta: {
-                parentPath: 'faq.list'
+                parentPath: 'item.faq.list'
             }
         },
         create: {
-            component: 'faq-create',
+            component: 'item-item-faq-create',
             path: 'create',
             meta: {
-                parentPath: 'faq.list'
+                parentPath: 'item.faq.list'
             }
         }
     },
@@ -45,9 +45,9 @@ Module.register('faq', {
     navigation: [{
         label: 'faq.general.mainMenuItemGeneral',
         color: '#fe7745',
-        path: 'faq.list',
-        parent: 'sw-content',
+        path: 'item.faq.list',
+        parent: 'sw-catalogue',
         icon: 'default-shopping-paper-bag-product',
-        position: 20
+        position: 30
     }]
 });
