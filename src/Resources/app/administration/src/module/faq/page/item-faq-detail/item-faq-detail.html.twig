@@ -1,0 +1,34 @@
+{% block item_faq_detail %}
+    <sw-page class="item-faq-detail">
+        <template slot="smart-bar-actions">
+            <sw-button :routerLink="{ name: 'item.faq.list' }">
+                {{ $t('faq.detail.cancelButtonText') }}
+            </sw-button>
+
+            <sw-button-process
+                :isLoading="isLoading"
+                :processSuccess="processSuccess"
+                variant="primary"
+                @process-finish="saveFinish"
+                @click="onClickSave">
+                {{ $t('faq.detail.saveButtonText') }}
+            </sw-button-process>
+        </template>
+
+        <template slot="content">
+            <sw-card-view>
+                <sw-card v-if="faq" :isLoading="isLoading">
+                    <sw-field :label="$t('faq.detail.questionLabel')" v-model="faq.question"></sw-field>
+                    <sw-field :label="$t('faq.detail.answerLabel')" v-model="faq.answer"></sw-field>
+
+
+                    <sw-entity-many-to-many-select
+                        :localMode="faq.isNew()"
+                        :label="$t('faq.detail.assignProductsLabel')"
+                        v-model="faq.products">
+                    </sw-entity-many-to-many-select>
+                </sw-card>
+            </sw-card-view>
+        </template>
+    </sw-page>
+{% endblock %}
