@@ -2,6 +2,7 @@
 
 namespace ProductsFAQ\Core\Content\Faq;
 
+use ProductsFAQ\Core\Content\Faq\Aggregate\FaqProduct\FaqProductDefinition;
 use Shopware\Core\Content\Product\ProductDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\Flag\PrimaryKey;
@@ -46,7 +47,7 @@ class FaqDefinition extends EntityDefinition
 
             (new LongTextField('answer', 'answer'))->addFlags(new Required()),
 
-            new ManyToManyAssociationField('products', ProductDefinition::class, FaqDefinition::class, 'faq_id', 'product_id')
+            new ManyToManyAssociationField('products', ProductDefinition::class, FaqProductDefinition::class, 'faq_id', 'product_id')
         ]);
     }
 }
