@@ -1,42 +1,23 @@
 {
-    "item-bundle": {
+    "faq": {
         "general": {
-            "mainMenuItemGeneral": "Bundles",
-            "descriptionTextModule": "Verwaltung von Produkt-Bundles."
+            "mainMenuItemGeneral": "Faqs",
+            "descriptionTextModule": "Management von Frequently Asked Questions"
         },
         "list": {
-            "addButtonText": "Bundle hinzufügen",
+            "addButtonText": "Faq hinzufügen",
             "columnName": "Name",
-            "columnDiscountType": "Rabatt typ",
-            "columnDiscount": "Rabatt"
+            "columnQuestion": "Frage",
+            "columnAnswer": "Antwort"
         },
-            "detail": {
-                "nameLabel": "Name",
-                "discountLabel": "Rabatt",
-                "discountTypeLabel": "Rabatt typ",
-                "assignProductsLabel": "Produkte zuweisen",
-                "cancelButtonText": "Abbrechen",
-                "saveButtonText": "Speichern",
-                "errorTitle": "Ein Fehler ist beim speichern des Bundles aufgetreten",
-                "absoluteText": "Absolut",
-                "percentageText": "Prozent"
-            }
-
-    },
-
-    "sw-product": {
         "detail": {
-            "bundleCardLabel": "Bundles",
-            "bundleSelectLabel": "Verknüpfte Bundles",
-            "bundleSelectPlaceholder": "Bundle hinzufügen..."
-        }
-    },
-
-    "sw-condition": {
-        "condition": {
-            "cartContainsBundle": {
-                "label": "Einkaufswagen enthält Bundle"
-            }
+            "nameLabel": "Name",
+            "questionLabel": "Frage",
+            "answerLabel": "Antwort",
+            "assignProductsLabel": "Produkt hinzufügen",
+            "cancelButtonText": "Abbrechen",
+            "saveButtonText": "Speichern",
+            "errorTitle": "Fehler beim speichern des faq's aufgetreten"
         }
     }
 }

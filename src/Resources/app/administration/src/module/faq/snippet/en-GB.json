@@ -1,42 +1,25 @@
 {
-    "item-bundle": {
+    "faq": {
         "general": {
-            "mainMenuItemGeneral": "Bundles",
-            "descriptionTextModule": "Management of Product-Bundles."
+            "mainMenuItemGeneral": "Faqs",
+            "descriptionTextModule": "Management of Frequently Asked Questions"
         },
         "list": {
-            "addButtonText": "Add bundle",
+            "addButtonText": "Add faq",
             "columnName": "Name",
-            "columnDiscountType": "Discount type",
-            "columnDiscount": "Discount"
+            "columnQuestion": "Question",
+            "columnAnswer": "Answer"
         },
         "detail": {
             "nameLabel": "Name",
-            "discountLabel": "Discount",
-            "discountTypeLabel": "Discount type",
+            "questionLabel": "Question",
+            "answerLabel": "Answer",
             "assignProductsLabel": "Assign Products",
             "cancelButtonText": "Cancel",
             "saveButtonText": "Save",
-            "errorTitle": "Error saving the bundle",
-            "absoluteText": "Absolute",
-            "percentageText": "Percentage"
-        }
-    },
-
-    "sw-product": {
-        "detail": {
-            "bundleCardLabel": "Bundles",
-            "bundleSelectLabel": "Associated bundles",
-            "bundleSelectPlaceholder": "Add bundle..."
-        }
-    },
-
-    "sw-condition": {
-        "condition": {
-            "cartContainsBundle": {
-                "label": "Cart contains bundle"
-            }
+            "errorTitle": "Error saving the faq"
         }
     }
 }
+
 
