@@ -1,0 +1,42 @@
+{
+    "item-bundle": {
+        "general": {
+            "mainMenuItemGeneral": "Bundles",
+            "descriptionTextModule": "Management of Product-Bundles."
+        },
+        "list": {
+            "addButtonText": "Add bundle",
+            "columnName": "Name",
+            "columnDiscountType": "Discount type",
+            "columnDiscount": "Discount"
+        },
+        "detail": {
+            "nameLabel": "Name",
+            "discountLabel": "Discount",
+            "discountTypeLabel": "Discount type",
+            "assignProductsLabel": "Assign Products",
+            "cancelButtonText": "Cancel",
+            "saveButtonText": "Save",
+            "errorTitle": "Error saving the bundle",
+            "absoluteText": "Absolute",
+            "percentageText": "Percentage"
+        }
+    },
+
+    "sw-product": {
+        "detail": {
+            "bundleCardLabel": "Bundles",
+            "bundleSelectLabel": "Associated bundles",
+            "bundleSelectPlaceholder": "Add bundle..."
+        }
+    },
+
+    "sw-condition": {
+        "condition": {
+            "cartContainsBundle": {
+                "label": "Cart contains bundle"
+            }
+        }
+    }
+}
+

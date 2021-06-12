@@ -1,0 +1,42 @@
+{
+    "item-bundle": {
+        "general": {
+            "mainMenuItemGeneral": "Bundles",
+            "descriptionTextModule": "Verwaltung von Produkt-Bundles."
+        },
+        "list": {
+            "addButtonText": "Bundle hinzufügen",
+            "columnName": "Name",
+            "columnDiscountType": "Rabatt typ",
+            "columnDiscount": "Rabatt"
+        },
+            "detail": {
+                "nameLabel": "Name",
+                "discountLabel": "Rabatt",
+                "discountTypeLabel": "Rabatt typ",
+                "assignProductsLabel": "Produkte zuweisen",
+                "cancelButtonText": "Abbrechen",
+                "saveButtonText": "Speichern",
+                "errorTitle": "Ein Fehler ist beim speichern des Bundles aufgetreten",
+                "absoluteText": "Absolut",
+                "percentageText": "Prozent"
+            }
+
+    },
+
+    "sw-product": {
+        "detail": {
+            "bundleCardLabel": "Bundles",
+            "bundleSelectLabel": "Verknüpfte Bundles",
+            "bundleSelectPlaceholder": "Bundle hinzufügen..."
+        }
+    },
+
+    "sw-condition": {
+        "condition": {
+            "cartContainsBundle": {
+                "label": "Einkaufswagen enthält Bundle"
+            }
+        }
+    }
+}
