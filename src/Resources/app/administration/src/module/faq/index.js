@@ -22,18 +22,18 @@ Module.register('item-faq', {
 
     routes: {
         list: {
-            component: 'item-item-faq-list',
+            component: 'item-faq-list',
             path: 'list'
         },
         detail: {
-            component: 'item-item-faq-detail',
+            component: 'item-faq-detail',
             path: 'detail/:id',
             meta: {
                 parentPath: 'item.faq.list'
             }
         },
         create: {
-            component: 'item-item-faq-create',
+            component: 'item-faq-create',
             path: 'create',
             meta: {
                 parentPath: 'item.faq.list'
