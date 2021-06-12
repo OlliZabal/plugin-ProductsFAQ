@@ -19,13 +19,7 @@
              role="tabpanel"
              aria-labelledby="faq-tab">
 
-            <div class="container faq-container">
-                {% for faq in page.product.extension('faqs').elements %}
-                    <h2>{{ faq.question }}</h2>
-                    <p>{{ faq.answer }}</p>
-
-                {% endfor %}
-            </div>
+        {% sw_include '@FaqTemplate/FaqTemplate/page/product-detail/faq.html.twig' %}
         </div>
     {% endif %}
 {% endblock %}
