@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/utilities/offcanvas.html.twig' %}
+
+{% block utilities_offcanvas_content %}
+    <div class="container faq-container">
+        {% for faq in page.product.extension('faqs').elements %}
+            <h2>{{ faq.question }}</h2>
+            <p>{{ faq.answer }}</p>
+
+        {% endfor %}
+    </div>
+{% endblock %}

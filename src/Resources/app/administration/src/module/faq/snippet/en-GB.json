@@ -1,0 +1,25 @@
+{
+    "faq": {
+        "general": {
+            "mainMenuItemGeneral": "Faqs",
+            "descriptionTextModule": "Management of Frequently Asked Questions"
+        },
+        "list": {
+            "addButtonText": "Add faq",
+            "columnName": "Name",
+            "columnQuestion": "Question",
+            "columnAnswer": "Answer"
+        },
+        "detail": {
+            "nameLabel": "Name",
+            "questionLabel": "Question",
+            "answerLabel": "Answer",
+            "assignProductsLabel": "Assign Products",
+            "cancelButtonText": "Cancel",
+            "saveButtonText": "Save",
+            "errorTitle": "Error saving the faq"
+        }
+    }
+}
+
+

@@ -1,0 +1,23 @@
+{
+    "faq": {
+        "general": {
+            "mainMenuItemGeneral": "Faqs",
+            "descriptionTextModule": "Management von Frequently Asked Questions"
+        },
+        "list": {
+            "addButtonText": "Faq hinzufügen",
+            "columnName": "Name",
+            "columnQuestion": "Frage",
+            "columnAnswer": "Antwort"
+        },
+        "detail": {
+            "nameLabel": "Name",
+            "questionLabel": "Frage",
+            "answerLabel": "Antwort",
+            "assignProductsLabel": "Produkt hinzufügen",
+            "cancelButtonText": "Abbrechen",
+            "saveButtonText": "Speichern",
+            "errorTitle": "Fehler beim speichern des faq's aufgetreten"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "robin/productsfaq",
+    "description": "Assign frequently asked questions to individual products",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.4.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "ProductsFAQ\\ProductsFAQ",
+        "label": {
+            "de-DE": "Produkte F.A.Q.",
+            "en-GB": "Products F.A.Q."
+        },
+        "description": {
+            "de-DE": "Dieses Plugin lässt Sie individuelle häufig gestellte Fragen zu individuellen Produkten in der Administration zuweisen",
+            "en-GB": "This plugins lets you configure individual frequently asked questions to individual products in the administration"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ProductsFAQ\\": "src/"
+        }
+    }
+}

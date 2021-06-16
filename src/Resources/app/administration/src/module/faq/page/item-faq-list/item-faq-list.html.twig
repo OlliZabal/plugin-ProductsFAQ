@@ -1,0 +1,24 @@
+{% block item_faq_list %}
+    <sw-page class="item-faq-list">
+        {% block item_faq_list_smart_bar_actions %}
+            <template #smart-bar-actions>
+                <sw-button variant="primary" :routerLink="{ name: 'item.faq.create' }">
+                    {{ $tc('faq.list.addButtonText') }}
+                </sw-button>
+            </template>
+        {% endblock %}
+
+        <template #content>
+            {% block item_faq_list_content %}
+                <sw-entity-listing
+                    v-if="faqs"
+                    :items="faqs"
+                    :repository="repository"
+                    :showSelection="false"
+                    :columns="columns"
+                    detailRoute="item.faq.detail">
+                </sw-entity-listing>
+            {% endblock %}
+        </template>
+    </sw-page>
+{% endblock %}
